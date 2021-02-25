@@ -1,0 +1,33 @@
+baseURL: http://smirlwebs.com/
+languageCode: en-us
+title: Alex Williams - smirlwebs.com
+theme: hallo
+
+disableKinds: ["page", "section", "taxonomy", "taxonomyTerm"]
+author:
+  name: "Alex Williams"
+
+params:
+  links:
+    - icon: "github"
+      title: "Github"
+      url: "https://github.com/smirl"
+
+    - icon: "instagram"
+      title: "Instagram"
+      url: "https://www.instagram.com/smirlie/"
+
+    - icon: "linkedin"
+      title: "LinkedIn"
+      url: "https://www.linkedin.com/in/alexander-williams-5aa36761/"
+
+    - iconorigin: "ai"
+      iconset: "ai"
+      icon: "google-scholar"
+      title: "Google Scholar"
+      url: "https://scholar.google.com/citations?hl=en&user=aAw2Qe4AAAAJ"
+
+colors:
+  background: "#81c6ff"
+  foreground: "#edf7ff"
+  hover: "#ffba82"

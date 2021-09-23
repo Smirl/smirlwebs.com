@@ -1,18 +1,16 @@
 <footer class="site-footer">
   <div class="container">
     <div class="row">
-      {{ with .Site.Params.footer.sitemap }}
       <div class="col-lg-3 col-md-6">
         <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          <h5 class="site-footer-widget-title">Sitemap</h5>
           <ul class="site-footer-widget-links">
-            {{ range .link }}
-            <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
+            {{ range .Site.Menus.nav.Sort.ByWeight.Reverse }}
+            <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
             {{ end }}
           </ul>
         </div>
       </div>
-      {{ end }}
       {{ with .Site.Params.footer.social }}
       <div class="col-lg-3 col-md-6">
         <div class="site-footer-widget">

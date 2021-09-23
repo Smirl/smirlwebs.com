@@ -52,5 +52,5 @@ params:
           url: "https://scholar.google.com/citations?hl=en&user=aAw2Qe4AAAAJ"
 
     service:
-      title: ""
-      description: made with ❤️
+      title: made with ❤️
+      description: always opensource

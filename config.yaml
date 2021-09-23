@@ -18,8 +18,8 @@ params:
       link:
         - name: Home
           url: /
-        # - name: Blog
-        #   url: /blog/
+        - name: Blog
+          url: /blog/
 
     social:
       title: Social Media

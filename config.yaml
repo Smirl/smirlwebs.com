@@ -7,15 +7,6 @@ disableKinds: ["taxonomy", "taxonomyTerm"]
 author:
   name: "Alex Williams"
 
-menu:
-  nav:
-    - identifier: home
-      name: Home
-      url: /
-    # - identifier: blog
-    #   name: Blog
-    #   url: /blog/
-
 params:
   banner:
     enable: true
@@ -34,20 +25,22 @@ params:
       title: Social Media
       link:
         - icon: "github"
+          iconset: fa
           name: "Github"
           url: "https://github.com/smirl"
 
         - icon: "instagram"
+          iconset: fa
           name: "Instagram"
           url: "https://www.instagram.com/smirlie/"
 
         - icon: "linkedin"
+          iconset: fa
           name: "LinkedIn"
           url: "https://www.linkedin.com/in/alexander-williams-5aa36761/"
 
-        - iconorigin: "ai"
-          iconset: "ai"
-          icon: "google-scholar"
+        - icon: "graduation-cap"
+          iconset: "fa"
           name: "Google Scholar"
           url: "https://scholar.google.com/citations?hl=en&user=aAw2Qe4AAAAJ"
 

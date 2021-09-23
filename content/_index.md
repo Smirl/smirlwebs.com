@@ -1,3 +1,7 @@
+---
+title: Home
+menu: nav
+---
 I'm a Principal Software Engineer at Skyscanner where I spend most of my time
 with Kubernetes, Istio, and building platforms.
 

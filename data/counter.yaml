@@ -1,0 +1,11 @@
+enable : true
+heading : "Useless statistics"
+counter_item: 
+  - title: "Years Experience"
+    number: "8"
+
+  - title: "Opensource Projects"
+    number: "10"
+
+  - title: "Cups of coffee"
+    number: "3000"

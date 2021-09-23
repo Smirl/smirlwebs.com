@@ -1,0 +1,31 @@
+{{ with .Site.Params.banner }}
+  {{ if .enable }}
+  {{ "<!-- Site Hero Start -->" | safeHTML }}
+  <section class="site-hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <img src="images/portrait.jpg" class="mx-auto" style="display: block; box-sizing: border-box; border-radius: 50%; border: 10px solid #fff; margin: 1em; width: 100%; height: auto; max-width: 300px; max-height: 300px;" alt="Portrait" />
+        </div>
+        <div class="col-md-6 site-hero-content">
+          <h1>Hello.</h1>
+          <h2>I am {{ $.Site.Author.name | default "Hallo" }}.</h2>
+          {{- $.Content -}}
+
+          <div class="links">
+              {{- range $.Site.Params.footer.social.link -}}
+                  <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}">
+                      <span class="{{ .iconset | default "fab" }} {{.iconorigin | default "fa" }}-{{ .icon }}"></span>
+                  </a>
+              {{- end -}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#counter" class="site-hero-scroll scroll-to">
+      <img src="images/arrow-down.svg" alt="arrow-down">
+    </a>
+  </section>
+  {{ "<!-- Site Hero End -->" | safeHTML }}
+  {{ end }}
+{{ end }}

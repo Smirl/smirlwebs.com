@@ -1,0 +1,32 @@
+.site-hero{
+  background-color: $primary-color;
+  &-content{
+    h1{
+      color: $white;
+      font-size: 150px;
+      margin-bottom: 30px;
+      margin-left: -10px;
+      @include desktop-lg{
+        font-size: 120px;
+      }
+      @include mobile{
+        font-size: 60px;
+        margin-left: 0px;
+    }
+    }
+    h2{
+      color: $white;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+
+.site-blog{
+  h1{
+    margin-bottom: 50px;
+  }
+  p, li{
+    color: $text-color-dark;
+  }
+}

@@ -47,3 +47,6 @@ params:
     service:
       title: made with ❤️
       description: always opensource
+
+pygmentsCodeFences: true
+pygmentsStyle: dracula

@@ -50,3 +50,10 @@ params:
 
 pygmentsCodeFences: true
 pygmentsStyle: dracula
+
+markup:
+  goldmark:
+    parser:
+      attribute:
+        block: true
+        title: true
